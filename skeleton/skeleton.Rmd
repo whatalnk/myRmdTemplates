@@ -1,0 +1,21 @@
+---
+title: タイトル
+author: 著者
+date: "`r format(Sys.time(), '%Y-%m-%d')`"
+documentclass: bxjsarticle
+output: 
+  pdf_document:
+    keep_tex: yes
+    latex_engine: xelatex
+    template: default_ja.tex
+classoption: a4paper,xelatex,ja=standard
+keep_tex: yes
+geometry: no
+---
+
+こんにちわ，世界!!
+
+```{r setup, include = FALSE}
+sapply(c("pipeR", "dplyr", "tidyr", "ggplot2", "readr", "readxl"), require, character.only=TRUE)
+knitr::opts_chunk$set(echo=FALSE)
+```
