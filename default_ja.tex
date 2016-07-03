@@ -10,7 +10,7 @@ $if(linestretch)$
 $endif$
 \usepackage{amssymb,amsmath}
 \usepackage{ifxetex,ifluatex}
-\usepackage{fixltx2e} % provides \textsubscript
+
 \ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
   \usepackage[$if(fontenc)$$fontenc$$else$T1$endif$]{fontenc}
   \usepackage[utf8]{inputenc}
@@ -218,14 +218,14 @@ $if(subtitle)$
 $endif$
 $if(author)$
   \author{$for(author)$$author$$sep$ \\ $endfor$}
-  \preauthor{\centering\large\emph}
+  \preauthor{\centering\large}
   \postauthor{\par}
 $else$
   \author{}
   \preauthor{}\postauthor{}
 $endif$
 $if(date)$
-  \predate{\centering\large\emph}
+  \predate{\centering\large}
   \postdate{\par}
   \date{$date$}
 $else$
