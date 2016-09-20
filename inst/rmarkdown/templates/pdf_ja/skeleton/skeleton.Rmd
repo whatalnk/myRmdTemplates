@@ -7,7 +7,7 @@ output:
   pdf_document:
     keep_tex: yes
     latex_engine: xelatex
-    template: default_ja.tex
+
 classoption: a4paper,xelatex,ja=standard
 keep_tex: yes
 geometry: no
