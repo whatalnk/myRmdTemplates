@@ -9,7 +9,6 @@ output:
     latex_engine: xelatex
 
 classoption: a4paper,xelatex,ja=standard
-keep_tex: yes
 geometry: no
 ---
 
