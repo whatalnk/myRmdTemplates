@@ -1,0 +1,4 @@
+name: slide-xaringan
+description: >
+  Template for Rmd presentation slide using xaringan.
+create_dir: false

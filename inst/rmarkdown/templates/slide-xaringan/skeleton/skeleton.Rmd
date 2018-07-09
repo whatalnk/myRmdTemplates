@@ -1,0 +1,49 @@
+---
+title: "Presentation"
+subtitle: "hoge"  
+author: "me"
+date: '`r Sys.Date()`'
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    css: xaringan-themer.css
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: true
+      ratio: "16:9"
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(dpi = 320)
+```
+
+```{r xaringan-themer, include=FALSE}
+library(xaringanthemer)
+mono_light(
+  base_color = "#1c5253",
+  header_font_family = "Source Han Sans JP",
+  header_font_weight = "Bold", 
+  text_font_family = "Source Sans Pro", 
+  text_font_family_fallback = "Source Han Sans JP", 
+  text_font_size = "18px", 
+  code_font_family = "Ricty",
+  code_font_size = "0.8em",
+  link_color = "#A1C5AB"
+)
+```
+
+class: center, middle, inverse
+## H2
+
+---
+### H3
+
+.pull-left[
+left
+]
+
+.pull-right[
+right
+]

@@ -1,9 +1,9 @@
 Package: myRmdTemplates
 Type: Package
 Title: Rmarkdown Template
-Version: 0.1.0
+Version: 0.1.1
 Author: whatalnk
 Maintainer: whatalnk <watnk0806@gmail.com>
-Description: Rmarkdown template
+Description: Rmarkdown templates.
 License: MIT
 LazyData: TRUE
